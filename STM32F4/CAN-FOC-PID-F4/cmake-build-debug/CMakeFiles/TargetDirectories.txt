@@ -1,0 +1,3 @@
+D:/Desktop/Tinker_Motor_Debug/cmake-build-debug/CMakeFiles/Tinker_Motor_Debug.elf.dir
+D:/Desktop/Tinker_Motor_Debug/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Desktop/Tinker_Motor_Debug/cmake-build-debug/CMakeFiles/rebuild_cache.dir

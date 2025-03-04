@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "w5500_conf.h": "c",
+        "bsp_i2c_ee.h": "c",
+        "bsp_i2c_gpio.h": "c",
+        "bsp_led.h": "c"
+    }
+}

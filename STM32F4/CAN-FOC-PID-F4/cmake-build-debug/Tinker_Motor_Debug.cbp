@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Tinker_Motor_Debug"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/Desktop/Tinker_Motor_Debug/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\Desktop\Tinker_Motor_Debug\cmake-build-debug\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f D:\Desktop\Tinker_Motor_Debug\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\Desktop\Tinker_Motor_Debug\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\Desktop\Tinker_Motor_Debug\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Tinker_Motor_Debug.elf">
+				<Option output="D:/Desktop/Tinker_Motor_Debug/cmake-build-debug/Tinker_Motor_Debug.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Desktop/Tinker_Motor_Debug/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F427xx"/>
+					<Add directory="D:/Desktop/Tinker_Motor_Debug/Core/Inc"/>
+					<Add directory="D:/Desktop/Tinker_Motor_Debug/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="D:/Desktop/Tinker_Motor_Debug/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="D:/Desktop/Tinker_Motor_Debug/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="D:/Desktop/Tinker_Motor_Debug/Drivers/CMSIS/Include"/>
+					<Add directory="d:\clion\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="d:\clion\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="d:\clion\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="d:\clion\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="d:\clion\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="d:\clion\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\Desktop\Tinker_Motor_Debug\cmake-build-debug\Makefile VERBOSE=1 Tinker_Motor_Debug.elf"/>
+					<CompileFile command="nmake /NOLOGO /f D:\Desktop\Tinker_Motor_Debug\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\Desktop\Tinker_Motor_Debug\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\Desktop\Tinker_Motor_Debug\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Tinker_Motor_Debug.elf/fast">
+				<Option output="D:/Desktop/Tinker_Motor_Debug/cmake-build-debug/Tinker_Motor_Debug.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Desktop/Tinker_Motor_Debug/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F427xx"/>
+					<Add directory="D:/Desktop/Tinker_Motor_Debug/Core/Inc"/>
+					<Add directory="D:/Desktop/Tinker_Motor_Debug/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="D:/Desktop/Tinker_Motor_Debug/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="D:/Desktop/Tinker_Motor_Debug/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="D:/Desktop/Tinker_Motor_Debug/Drivers/CMSIS/Include"/>
+					<Add directory="d:\clion\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="d:\clion\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="d:\clion\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="d:\clion\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="d:\clion\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="d:\clion\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\Desktop\Tinker_Motor_Debug\cmake-build-debug\Makefile VERBOSE=1 Tinker_Motor_Debug.elf/fast"/>
+					<CompileFile command="nmake /NOLOGO /f D:\Desktop\Tinker_Motor_Debug\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\Desktop\Tinker_Motor_Debug\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\Desktop\Tinker_Motor_Debug\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/Desktop/Tinker_Motor_Debug/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\Desktop\Tinker_Motor_Debug\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f D:\Desktop\Tinker_Motor_Debug\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\Desktop\Tinker_Motor_Debug\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\Desktop\Tinker_Motor_Debug\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/Desktop/Tinker_Motor_Debug/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\Desktop\Tinker_Motor_Debug\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f D:\Desktop\Tinker_Motor_Debug\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\Desktop\Tinker_Motor_Debug\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\Desktop\Tinker_Motor_Debug\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/Desktop/Tinker_Motor_Debug/Core/Inc/can.h">
+			<Option target="Tinker_Motor_Debug.elf"/>
+		</Unit>
+		<Unit filename="D:/Desktop/Tinker_Motor_Debug/Core/Inc/gpio.h">
+			<Option target="Tinker_Motor_Debug.elf"/>
+		</Unit>
+		<Unit filename="D:/Desktop/Tinker_Motor_Debug/Core/Inc/main.h">
+			<Option target="Tinker_Motor_Debug.elf"/>
+		</Unit>
+		<Unit filename="D:/Desktop/Tinker_Motor_Debug/Core/Inc/pid.h">
+			<Option target="Tinker_Motor_Debug.elf"/>
+		</Unit>
+		<Unit filename="D:/Desktop/Tinker_Motor_Debug/Core/Inc/stm32f4xx_hal_conf.h">
+			<Option target="Tinker_Motor_Debug.elf"/>
+		</Unit>
+		<Unit filename="D:/Desktop/Tinker_Motor_Debug/Core/Inc/stm32f4xx_it.h">
+			<Option target="Tinker_Motor_Debug.elf"/>
+		</Unit>
+		<Unit filename="D:/Desktop/Tinker_Motor_Debug/Core/Inc/usart.h">
+			<Option target="Tinker_Motor_Debug.elf"/>
+		</Unit>
+		<Unit filename="D:/Desktop/Tinker_Motor_Debug/Core/Src/can.c">
+			<Option target="Tinker_Motor_Debug.elf"/>
+		</Unit>
+		<Unit filename="D:/Desktop/Tinker_Motor_Debug/Core/Src/gpio.c">
+			<Option target="Tinker_Motor_Debug.elf"/>
+		</Unit>
+		<Unit filename="D:/Desktop/Tinker_Motor_Debug/Core/Src/main.c">
+			<Option target="Tinker_Motor_Debug.elf"/>
+		</Unit>
+		<Unit filename="D:/Desktop/Tinker_Motor_Debug/Core/Src/pid.c">
+			<Option target="Tinker_Motor_Debug.elf"/>
+		</Unit>
+		<Unit filename="D:/Desktop/Tinker_Motor_Debug/Core/Src/stm32f4xx_hal_msp.c">
+			<Option target="Tinker_Motor_Debug.elf"/>
+		</Unit>
+		<Unit filename="D:/Desktop/Tinker_Motor_Debug/Core/Src/stm32f4xx_it.c">
+			<Option target="Tinker_Motor_Debug.elf"/>
+		</Unit>
+		<Unit filename="D:/Desktop/Tinker_Motor_Debug/Core/Src/syscalls.c">
+			<Option target="Tinker_Motor_Debug.elf"/>
+		</Unit>
+		<Unit filename="D:/Desktop/Tinker_Motor_Debug/Core/Src/system_stm32f4xx.c">
+			<Option target="Tinker_Motor_Debug.elf"/>
+		</Unit>
+		<Unit filename="D:/Desktop/Tinker_Motor_Debug/Core/Src/usart.c">
+			<Option target="Tinker_Motor_Debug.elf"/>
+		</Unit>
+		<Unit filename="D:/Desktop/Tinker_Motor_Debug/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f427xx.h">
+			<Option target="Tinker_Motor_Debug.elf"/>
+		</Unit>
+		<Unit filename="D:/Desktop/Tinker_Motor_Debug/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h">
+			<Option target="Tinker_Motor_Debug.elf"/>
+		</Unit>
+		<Unit filename="D:/Desktop/Tinker_Motor_Debug/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h">
+			<Option target="Tinker_Motor_Debug.elf"/>
+		</Unit>
+		<Unit filename="D:/Desktop/Tinker_Motor_Debug/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="Tinker_Motor_Debug.elf"/>
+		</Unit>
+		<Unit filename="D:/Desktop/Tinker_Motor_Debug/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="Tinker_Motor_Debug.elf"/>
+		</Unit>
+		<Unit filename="D:/Desktop/Tinker_Motor_Debug/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="Tinker_Motor_Debug.elf"/>
+		</Unit>
+		<Unit filename="D:/Desktop/Tinker_Motor_Debug/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="Tinker_Motor_Debug.elf"/>
+		</Unit>
+		<Unit filename="D:/Desktop/Tinker_Motor_Debug/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="Tinker_Motor_Debug.elf"/>
+		</Unit>
+		<Unit filename="D:/Desktop/Tinker_Motor_Debug/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="Tinker_Motor_Debug.elf"/>
+		</Unit>
+		<Unit filename="D:/Desktop/Tinker_Motor_Debug/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="Tinker_Motor_Debug.elf"/>
+		</Unit>
+		<Unit filename="D:/Desktop/Tinker_Motor_Debug/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="Tinker_Motor_Debug.elf"/>
+		</Unit>
+		<Unit filename="D:/Desktop/Tinker_Motor_Debug/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="Tinker_Motor_Debug.elf"/>
+		</Unit>
+		<Unit filename="D:/Desktop/Tinker_Motor_Debug/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="Tinker_Motor_Debug.elf"/>
+		</Unit>
+		<Unit filename="D:/Desktop/Tinker_Motor_Debug/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="Tinker_Motor_Debug.elf"/>
+		</Unit>
+		<Unit filename="D:/Desktop/Tinker_Motor_Debug/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="Tinker_Motor_Debug.elf"/>
+		</Unit>
+		<Unit filename="D:/Desktop/Tinker_Motor_Debug/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="Tinker_Motor_Debug.elf"/>
+		</Unit>
+		<Unit filename="D:/Desktop/Tinker_Motor_Debug/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="Tinker_Motor_Debug.elf"/>
+		</Unit>
+		<Unit filename="D:/Desktop/Tinker_Motor_Debug/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="Tinker_Motor_Debug.elf"/>
+		</Unit>
+		<Unit filename="D:/Desktop/Tinker_Motor_Debug/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="Tinker_Motor_Debug.elf"/>
+		</Unit>
+		<Unit filename="D:/Desktop/Tinker_Motor_Debug/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="Tinker_Motor_Debug.elf"/>
+		</Unit>
+		<Unit filename="D:/Desktop/Tinker_Motor_Debug/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="Tinker_Motor_Debug.elf"/>
+		</Unit>
+		<Unit filename="D:/Desktop/Tinker_Motor_Debug/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="Tinker_Motor_Debug.elf"/>
+		</Unit>
+		<Unit filename="D:/Desktop/Tinker_Motor_Debug/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="Tinker_Motor_Debug.elf"/>
+		</Unit>
+		<Unit filename="D:/Desktop/Tinker_Motor_Debug/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="Tinker_Motor_Debug.elf"/>
+		</Unit>
+		<Unit filename="D:/Desktop/Tinker_Motor_Debug/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="Tinker_Motor_Debug.elf"/>
+		</Unit>
+		<Unit filename="D:/Desktop/Tinker_Motor_Debug/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h">
+			<Option target="Tinker_Motor_Debug.elf"/>
+		</Unit>
+		<Unit filename="D:/Desktop/Tinker_Motor_Debug/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h">
+			<Option target="Tinker_Motor_Debug.elf"/>
+		</Unit>
+		<Unit filename="D:/Desktop/Tinker_Motor_Debug/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h">
+			<Option target="Tinker_Motor_Debug.elf"/>
+		</Unit>
+		<Unit filename="D:/Desktop/Tinker_Motor_Debug/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h">
+			<Option target="Tinker_Motor_Debug.elf"/>
+		</Unit>
+		<Unit filename="D:/Desktop/Tinker_Motor_Debug/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h">
+			<Option target="Tinker_Motor_Debug.elf"/>
+		</Unit>
+		<Unit filename="D:/Desktop/Tinker_Motor_Debug/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h">
+			<Option target="Tinker_Motor_Debug.elf"/>
+		</Unit>
+		<Unit filename="D:/Desktop/Tinker_Motor_Debug/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h">
+			<Option target="Tinker_Motor_Debug.elf"/>
+		</Unit>
+		<Unit filename="D:/Desktop/Tinker_Motor_Debug/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h">
+			<Option target="Tinker_Motor_Debug.elf"/>
+		</Unit>
+		<Unit filename="D:/Desktop/Tinker_Motor_Debug/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h">
+			<Option target="Tinker_Motor_Debug.elf"/>
+		</Unit>
+		<Unit filename="D:/Desktop/Tinker_Motor_Debug/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h">
+			<Option target="Tinker_Motor_Debug.elf"/>
+		</Unit>
+		<Unit filename="D:/Desktop/Tinker_Motor_Debug/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h">
+			<Option target="Tinker_Motor_Debug.elf"/>
+		</Unit>
+		<Unit filename="D:/Desktop/Tinker_Motor_Debug/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h">
+			<Option target="Tinker_Motor_Debug.elf"/>
+		</Unit>
+		<Unit filename="D:/Desktop/Tinker_Motor_Debug/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h">
+			<Option target="Tinker_Motor_Debug.elf"/>
+		</Unit>
+		<Unit filename="D:/Desktop/Tinker_Motor_Debug/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h">
+			<Option target="Tinker_Motor_Debug.elf"/>
+		</Unit>
+		<Unit filename="D:/Desktop/Tinker_Motor_Debug/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h">
+			<Option target="Tinker_Motor_Debug.elf"/>
+		</Unit>
+		<Unit filename="D:/Desktop/Tinker_Motor_Debug/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h">
+			<Option target="Tinker_Motor_Debug.elf"/>
+		</Unit>
+		<Unit filename="D:/Desktop/Tinker_Motor_Debug/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h">
+			<Option target="Tinker_Motor_Debug.elf"/>
+		</Unit>
+		<Unit filename="D:/Desktop/Tinker_Motor_Debug/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h">
+			<Option target="Tinker_Motor_Debug.elf"/>
+		</Unit>
+		<Unit filename="D:/Desktop/Tinker_Motor_Debug/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h">
+			<Option target="Tinker_Motor_Debug.elf"/>
+		</Unit>
+		<Unit filename="D:/Desktop/Tinker_Motor_Debug/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c">
+			<Option target="Tinker_Motor_Debug.elf"/>
+		</Unit>
+		<Unit filename="D:/Desktop/Tinker_Motor_Debug/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c">
+			<Option target="Tinker_Motor_Debug.elf"/>
+		</Unit>
+		<Unit filename="D:/Desktop/Tinker_Motor_Debug/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c">
+			<Option target="Tinker_Motor_Debug.elf"/>
+		</Unit>
+		<Unit filename="D:/Desktop/Tinker_Motor_Debug/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c">
+			<Option target="Tinker_Motor_Debug.elf"/>
+		</Unit>
+		<Unit filename="D:/Desktop/Tinker_Motor_Debug/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c">
+			<Option target="Tinker_Motor_Debug.elf"/>
+		</Unit>
+		<Unit filename="D:/Desktop/Tinker_Motor_Debug/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c">
+			<Option target="Tinker_Motor_Debug.elf"/>
+		</Unit>
+		<Unit filename="D:/Desktop/Tinker_Motor_Debug/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c">
+			<Option target="Tinker_Motor_Debug.elf"/>
+		</Unit>
+		<Unit filename="D:/Desktop/Tinker_Motor_Debug/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c">
+			<Option target="Tinker_Motor_Debug.elf"/>
+		</Unit>
+		<Unit filename="D:/Desktop/Tinker_Motor_Debug/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c">
+			<Option target="Tinker_Motor_Debug.elf"/>
+		</Unit>
+		<Unit filename="D:/Desktop/Tinker_Motor_Debug/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c">
+			<Option target="Tinker_Motor_Debug.elf"/>
+		</Unit>
+		<Unit filename="D:/Desktop/Tinker_Motor_Debug/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c">
+			<Option target="Tinker_Motor_Debug.elf"/>
+		</Unit>
+		<Unit filename="D:/Desktop/Tinker_Motor_Debug/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c">
+			<Option target="Tinker_Motor_Debug.elf"/>
+		</Unit>
+		<Unit filename="D:/Desktop/Tinker_Motor_Debug/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c">
+			<Option target="Tinker_Motor_Debug.elf"/>
+		</Unit>
+		<Unit filename="D:/Desktop/Tinker_Motor_Debug/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c">
+			<Option target="Tinker_Motor_Debug.elf"/>
+		</Unit>
+		<Unit filename="D:/Desktop/Tinker_Motor_Debug/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c">
+			<Option target="Tinker_Motor_Debug.elf"/>
+		</Unit>
+		<Unit filename="D:/Desktop/Tinker_Motor_Debug/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c">
+			<Option target="Tinker_Motor_Debug.elf"/>
+		</Unit>
+		<Unit filename="D:/Desktop/Tinker_Motor_Debug/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c">
+			<Option target="Tinker_Motor_Debug.elf"/>
+		</Unit>
+		<Unit filename="D:/Desktop/Tinker_Motor_Debug/STM32F427IIHx_FLASH.ld">
+			<Option target="Tinker_Motor_Debug.elf"/>
+		</Unit>
+		<Unit filename="D:/Desktop/Tinker_Motor_Debug/startup/startup_stm32f427xx.s">
+			<Option target="Tinker_Motor_Debug.elf"/>
+		</Unit>
+		<Unit filename="D:/Desktop/Tinker_Motor_Debug/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

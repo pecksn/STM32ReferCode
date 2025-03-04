@@ -1,0 +1,62 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.18.0.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 1 ASUS, 1, LIC=03C6R-K35A9-Z9FG9-48NXF-HEEBT-0ZH3R
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Standard  Version: 5.24.1
+Toolchain Path:  E:\desktop\software\C51\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 5 (build 528)
+Assembler:       Armasm.exe V5.06 update 5 (build 528)
+Linker/Locator:  ArmLink.exe V5.06 update 5 (build 528)
+Library Manager: ArmAr.exe V5.06 update 5 (build 528)
+Hex Converter:   FromElf.exe V5.06 update 5 (build 528)
+CPU DLL:         SARMCM3.DLL V5.24.1
+Dialog DLL:      DCM.DLL V1.16.0.0
+Target DLL:      CMSIS_AGDI.dll V1.28.3.0
+Dialog DLL:      TCM.DLL V1.32.0.0
+ 
+<h2>Project:</h2>
+E:\desktop\STM32 CODES\STM32 F4\RM\2021RM_Infantry-master\MDK-ARM\HAL_Code_Frame.uvprojx
+Project File Date:  08/27/2021
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 5 (build 528)', folder: 'E:\desktop\software\C51\ARM\ARMCC\Bin'
+Build target 'HAL_Code_Frame'
+compiling DJI_IMU.c...
+..\Devices\Devices.c\DJI_IMU.c(188): warning:  #177-D: function "mpu_offset_call"  was declared but never referenced
+  static void mpu_offset_call(void)
+..\Devices\Devices.c\DJI_IMU.c: 1 warning, 0 errors
+linking...
+Program Size: Code=87488 RO-data=2684 RW-data=4272 ZI-data=24424  
+FromELF: creating hex file...
+After Build - User command #1: fromelf --bin --output .\HAL_Code_Frame\HAL_Code_Frame.bin .\HAL_Code_Frame\HAL_Code_Frame.axf
+"HAL_Code_Frame\HAL_Code_Frame.axf" - 0 Error(s), 1 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                https://www.keil.com/pack/ARM.CMSIS.5.9.1.pack
+                ARM::CMSIS:CORE:5.7.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.7.0
+
+<h2>Collection of Component include folders:</h2>
+  E:\desktop\STM32 CODES\STM32 F4\RM\2021RM_Infantry-master\MDK-ARM\RTE
+  E:\desktop\software\C51\CMSIS_5-develop\CMSIS_5-develop\CMSIS\Core\Include
+  E:\desktop\software\C51\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.7.0
+      Include file:  CMSIS\Core\Include\tz_context.h
+      Source file:   CMSIS\Core\Template\ARMv8-M\main_s.c
+      Source file:   CMSIS\Core\Template\ARMv8-M\tz_context.c
+Build Time Elapsed:  00:00:05
+</pre>
+</body>
+</html>
